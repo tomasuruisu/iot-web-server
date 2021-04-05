@@ -61,3 +61,15 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # iot-web-server
+
+## Getting Started for mac users
+
+- Install Docker Desktop
+- Clone this repository
+- run the following command
+```
+./vendor/bin/sail up
+```
+- Once the application's Docker containers have been started, you can access the application in your web browser at: http://localhost.
+
+For other systems please refer to: https://laravel.com/docs/8.x/installation
